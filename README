@@ -1,0 +1,24 @@
+'''
+This is how you can run the project :
+
+Customer-base is project directory. 
+
+1] First activate virtual environment.
+2] Go inside project directory -> (venv) PS C:\Users\DELL\customer-base> 
+3] Then run below commands ->
+
+python .\manage.py makemigrations
+
+python .\manage.py migrate     
+
+python .\manage.py runserver  
+
+4] Open web browser http://127.0.0.1:8000/ 
+
+(Other commands you might need to create a super user or other things)
+
+python manage.py createsuperuser
+
+
+
+'''
